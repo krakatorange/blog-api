@@ -95,8 +95,6 @@ Delete a specific blog post (replace {postId} with the actual ID of the post):
 curl -X DELETE http://localhost:3001/api/posts/{postId}
 ```
 
-https://medium.com/deno-the-complete-reference/express-vs-fastify-vs-hapi-vs-koa-hello-world-performance-comparison-dd8cd6866bdd
-
 ### References:
 
 * [Decision behind choice in Web Framework](https://medium.com/deno-the-complete-reference/express-vs-fastify-vs-hapi-vs-koa-hello-world-performance-comparison-dd8cd6866bdd/ "Express vs Fastify vs Hapi vs Koa: Hello world performance comparison")
