@@ -18,7 +18,7 @@ git clone https://github.com/krakatorange/blog_api.git
 cd blog_api
 ```
 
-### 2. Installing Dependencies
+### 2. Installing the Dependencies
 
 ```
 npm install
