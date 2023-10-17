@@ -1,10 +1,15 @@
 ## blog_api
 
-This is a blog api.
+This is a blog api, written in Node.js, using the Fastify web framework and a PostgreSQL database.
 
 # Installation and Setup
 
 Follow these steps to get the project up and running on your local machine:
+
+# Prerequisites
+
+* Node
+* PostgreSQL
 
 # 1. Cloning the Repository
 
