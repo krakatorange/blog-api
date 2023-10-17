@@ -54,38 +54,38 @@ Your server will now be running at http://localhost:3001 and swagger documentati
 
 # 5. Testing the API.
 
-    We can send RESTful requests to our API via the following curl commands (or via Postman/Thunder Client):
+We can send RESTful requests to our API via the following curl commands (or via Postman/Thunder Client):
 
-    Create a new blog post:
+Create a new blog post:
 
-    ```
-    curl -X POST http://localhost:3001/api/posts \
-    -H "Content-Type: application/json" \
-    -d '{"title": "Sample Title", "description": "Sample Description"}'
-    ```
+```
+curl -X POST http://localhost:3001/api/posts \
+-H "Content-Type: application/json" \
+-d '{"title": "Sample Title", "description": "Sample Description"}'
+```
 
-    Retrieve a list of all blog posts:
+Retrieve a list of all blog posts:
 
-    ```
-    curl -X GET http://localhost:3001/api/posts
-    ```
+```
+curl -X GET http://localhost:3001/api/posts
+```
 
-    Retrieve a specific blog post (replace {postId} with the actual ID of the post):
+Retrieve a specific blog post (replace {postId} with the actual ID of the post):
 
-    ```
-    curl -X GET http://localhost:3000/api/posts/{postId}
-    ```
+```
+curl -X GET http://localhost:3000/api/posts/{postId}
+```
 
-    Update a specific blog post (replace {postId} with the actual ID of the post):
+Update a specific blog post (replace {postId} with the actual ID of the post):
 
-    ```
-    curl -X PUT http://localhost:3000/api/posts/{postId} \
-    -H "Content-Type: application/json" \
-    -d '{"title": "Updated Title", "description": "Updated Description"}'
-    ```
+```
+curl -X PUT http://localhost:3000/api/posts/{postId} \
+-H "Content-Type: application/json" \
+-d '{"title": "Updated Title", "description": "Updated Description"}'
+```
 
-    Delete a specific blog post (replace {postId} with the actual ID of the post):
+Delete a specific blog post (replace {postId} with the actual ID of the post):
 
-    ```
-    curl -X DELETE http://localhost:3000/api/posts/{postId}
-    ```
+```
+curl -X DELETE http://localhost:3000/api/posts/{postId}
+```
