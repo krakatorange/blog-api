@@ -9,8 +9,8 @@ Follow these steps to get the project up and running on your local machine:
 # 1. Clone the Repository
 
 ```
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/krakatorange/blog_api.git
+cd blog_api
 ```
 
 # 2. Install Dependencies
