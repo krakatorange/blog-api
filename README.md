@@ -1,6 +1,6 @@
-# blog_api
+# Blog API
 
-This is a blog api, written in Node.js, using the Fastify web framework and a PostgreSQL database.
+This is a blog API, written in Node.js, using the Fastify web framework and a PostgreSQL database.
 
 ## Installation and Setup
 
