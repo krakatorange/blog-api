@@ -21,7 +21,16 @@ npm install
 
 # 3. Set Up the Database
 
-Ensure you have PostgreSQL installed on your machine. Create a database and update the config.js file or set the appropriate environment variables with your database connection information:
+Ensure you have PostgreSQL installed on your machine. Create a database and set the appropriate environment variables with your database connection information in the format below:
+
+```
+DB_USER=username
+DB_HOST=host
+DB_NAME=database
+DB_PASS=password
+DB_PORT=5432
+API_HOST=localhost
+```
 
 Run the setup script to create the necessary database table:
 
