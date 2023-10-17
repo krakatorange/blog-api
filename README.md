@@ -1,30 +1,30 @@
-## blog_api
+# blog_api
 
 This is a blog api, written in Node.js, using the Fastify web framework and a PostgreSQL database.
 
-# Installation and Setup
+## Installation and Setup
 
 Follow these steps to get the project up and running on your local machine:
 
-# Prerequisites
+### Prerequisites
 
 * Node
 * PostgreSQL
 
-# 1. Cloning the Repository
+### 1. Cloning the Repository
 
 ```
 git clone https://github.com/krakatorange/blog_api.git
 cd blog_api
 ```
 
-# 2. Installing Dependencies
+### 2. Installing Dependencies
 
 ```
 npm install
 ```
 
-# 3. Setting Up the Database
+### 3. Setting Up the Database
 
 Ensure you have PostgreSQL installed on your machine. Create a database and set the appropriate environment variables with your database connection information in the format below:
 
@@ -43,7 +43,7 @@ Run the setup script to create the necessary database table:
 node scripts/setup.js
 ```
 
-# 4. Starting the Server
+### 4. Starting the Server
 
 ```
 npm start
@@ -57,7 +57,7 @@ nodemon start
 
 Your server will now be running at http://localhost:3001 and swagger documentation for the API can be found at http://localhost:3001/documentation.
 
-# 5. Testing the API
+### 5. Testing the API
 
 We can send RESTful requests to our API via the following curl commands (or via Postman/Thunder Client):
 
