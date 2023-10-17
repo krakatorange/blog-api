@@ -1,0 +1,32 @@
+{
+  "name": "blog_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/posts.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krakatorange/blog_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krakatorange/blog_api/issues"
+  },
+  "homepage": "https://github.com/krakatorange/blog_api#readme",
+  "dependencies": {
+    "@fastify/swagger": "^8.12.0",
+    "@fastify/swagger-ui": "^1.10.1",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.2",
+    "fastify-plugin": "^4.5.1",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "tap": "^18.5.2"
+  }
+}
