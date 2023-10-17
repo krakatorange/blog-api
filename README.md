@@ -73,13 +73,13 @@ curl -X GET http://localhost:3001/api/posts
 Retrieve a specific blog post (replace {postId} with the actual ID of the post):
 
 ```
-curl -X GET http://localhost:3000/api/posts/{postId}
+curl -X GET http://localhost:3001/api/posts/{postId}
 ```
 
 Update a specific blog post (replace {postId} with the actual ID of the post):
 
 ```
-curl -X PUT http://localhost:3000/api/posts/{postId} \
+curl -X PUT http://localhost:3001/api/posts/{postId} \
 -H "Content-Type: application/json" \
 -d '{"title": "Updated Title", "description": "Updated Description"}'
 ```
@@ -87,5 +87,5 @@ curl -X PUT http://localhost:3000/api/posts/{postId} \
 Delete a specific blog post (replace {postId} with the actual ID of the post):
 
 ```
-curl -X DELETE http://localhost:3000/api/posts/{postId}
+curl -X DELETE http://localhost:3001/api/posts/{postId}
 ```
