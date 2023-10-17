@@ -8,8 +8,8 @@ Follow these steps to get the project up and running on your local machine:
 
 ### Prerequisites
 
-* Node
-* PostgreSQL
+* [Node.js](https://nodejs.org/ "Node.js")
+* [PostgreSQL](https://www.postgresql.org/ "PostgreSQL")
 
 ### 1. Cloning the Repository
 
@@ -99,5 +99,5 @@ https://medium.com/deno-the-complete-reference/express-vs-fastify-vs-hapi-vs-koa
 
 ### References:
 
-* [Decision behind choice in Web Framework](https://medium.com/deno-the-complete-reference/express-vs-fastify-vs-hapi-vs-koa-hello-world-performance-comparison-dd8cd6866bdd "Express vs Fastify vs Hapi vs Koa: Hello world performance comparison")
-* [Decision behind choice in Test Framework](https://blog.logrocket.com/comparing-best-node-js-unit-testing-frameworks) "Comparing the best Node.js unit testing frameworks")
+* [Decision behind choice in Web Framework](https://medium.com/deno-the-complete-reference/express-vs-fastify-vs-hapi-vs-koa-hello-world-performance-comparison-dd8cd6866bdd/ "Express vs Fastify vs Hapi vs Koa: Hello world performance comparison")
+* [Decision behind choice in Test Framework](https://blog.logrocket.com/comparing-best-node-js-unit-testing-frameworks/) "Comparing the best Node.js unit testing frameworks")
